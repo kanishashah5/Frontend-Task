@@ -1,0 +1,36 @@
+.navbar-nav .nav-link.active{
+    color:rgb(50, 201, 50) !important;
+    font-weight: bold;
+}
+.bg-color {
+    background-color:  rgb(50, 201, 50) !important;
+    color: white;
+}
+
+.text-clr{
+    color :  rgb(50, 201, 50);
+}
+
+@media (min-width: 576px) {
+            .form-container form {
+                width: 90%;
+            }
+        }
+
+       
+        @media (min-width: 768px) {
+            .form-container form {
+                width: 50%; 
+            }
+        }
+
+        .form-check {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bg-color {
+    background-color:  rgb(50, 201, 50) !important;
+    color: white;
+}

@@ -1,0 +1,81 @@
+.navbar-nav .nav-link.active{
+    color:green !important;
+}
+
+
+.carousel .carousel-indicators button {
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+}
+
+.carousel .carousel-indicators .active{
+    background-color: rgb(29, 128, 29);
+}
+
+
+.line{
+    border-bottom: 4px solid rgb(50, 201, 50);
+    padding: 0px 0px 20px 0px; 
+}
+
+.bg-color {
+    background-color:  rgb(50, 201, 50) !important;
+    color: white;
+}
+
+.text-clr{
+    color :  rgb(50, 201, 50);
+}
+
+.about-pic{
+position: absolute;
+z-index: 2;
+right: 80px;
+top: 20px;
+}
+
+.our-story{
+    margin-right: 100px;
+}
+
+
+#portfolio img:hover , .list-group-item img:hover{
+transform: scale(1.1 ,1.1);
+transition: 1s;
+z-index: 2;
+}
+
+.container .nav-pills .active{
+    background-color: rgb(60, 182, 60);
+} 
+
+
+
+@media (max-width:1000px){
+    .about-pic{
+        position: none;
+        display:none;
+    }
+
+    .our-story{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .our-story{
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width:900px) {
+   .carousel-inner .carousel-item {
+        width: 100vw;
+   }
+
+    .carousel-caption{
+        visibility: hidden;
+    }
+}
